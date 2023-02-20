@@ -391,7 +391,6 @@ public class TwentyFourGame {
         }
     }
 
-
     // MODIFIES: this
     // EFFECTS: when players end game at the middle of a game, create a new game with no players
     private void killCurrentGame() {
@@ -403,7 +402,6 @@ public class TwentyFourGame {
         newGame.addtoWholeGame(this.wholeGame);
         this.wholeGame.setCurrentGame(newGame);
     }
-
     // EFFECTS: display all the players' names
     private void checkPlayerNames() {
         for (Player p : this.wholeGame.getPlayers()) {
