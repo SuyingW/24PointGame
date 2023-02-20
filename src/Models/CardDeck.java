@@ -103,11 +103,3 @@ public class CardDeck {
         return new double[]{x+y, x-y, y-x, x*y, x/y, y/x};
     }
 }
-
-
-
-
-
-
-
-
