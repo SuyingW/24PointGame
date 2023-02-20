@@ -159,7 +159,7 @@ public class TwentyFourGame {
     }
 
     // EFFECTS: let user decide to continue or to end game
-    private void whetherToContinue() throws InvalidInputException, NoCardException, NoPlayerException, DuplicatePlayerException {
+    private void whetherToContinue() throws InvalidInputException, NoPlayerException, DuplicatePlayerException {
         System.out.println("\tc -> continue");
         String toContinue = this.input.nextLine();
         if (toContinue.equals("c")) {
@@ -410,6 +410,4 @@ public class TwentyFourGame {
             System.out.println(p.getName());
         }
     }
-
-
 }
